@@ -1,0 +1,110 @@
+$backgroundColor: #e1f1fd;
+$bodyColor: #00A;
+$highlightColor: #E63946;
+		 
+$bodyFont: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+
+body {
+  background: $backgroundColor;
+  color: $bodyColor;
+  font-family: $bodyFont;
+  margin: 10%;
+}
+
+.red-text {
+  color: red;
+}
+
+.active {
+  color: red;
+}
+
+.red-img {
+  border: 15px double red;
+}
+
+.layout {
+  width: 100%;
+
+  display: flex;
+  gap: 16px;
+}
+
+.grow1 { flex-grow: 1; }
+
+.banner {
+  background-color: $bodyColor ; /* Dark blue background */
+  color: $backgroundColor;            /* Light blue font */
+  padding: 2rem;
+  border-radius: 1rem 1rem 0rem 0rem;       /* Rounded corners */
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.banner h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+.banner p {
+  margin: 0.5rem 0 0;
+  font-size: 1.25rem;
+  font-style: italic;
+}
+
+
+ .image-text-link {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background-color: $backgroundColor;         /* Light background */
+  border: 1px solid $bodyColor;
+  border-radius: 1rem;
+  padding: 1rem;
+  text-decoration: none;
+  color: $bodyColor;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.image-text-link:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.image-text-link img {
+  max-width: 150px;
+  height: auto;
+  border-radius: 0.5rem;
+  flex-shrink: 0;
+}
+
+.image-text-link span {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: $bodyColor;
+  border-radius: 0rem 0rem 1rem 1rem;       /* Rounded corners */
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: $backgroundColor;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: #111;
+}
