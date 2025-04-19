@@ -1,7 +1,28 @@
 ---
 layout: default
 title: "This is a Test"
+
+carousel_images:
+  - url: /assets/images/t/malta-einstein.jpg
+    caption: "Upper Barrakkas, La Valletta, Malta"
+  - url: /assets/images/t/ecuador-middle-of-the-world.jpg
+    caption: "Museo de Sitio Intiñan, Ecuador  "
+  - url: /assets/images/t/apollo.jpg
+    caption: "Apollo 11 Test Capsule   Meteor Crater, AZ"
+  - url: /assets/images/t/alexandria-ruins-group.jpg
+    caption: "Roman Ruins in Alexandria"
+  - url: /assets/images/t/gibraltar.jpg
+    caption: "Gibraltar"
+  - url: /assets/images/t/mosaic-in-alexandria.png
+    caption: "Marble Mosaic"
+  - url: /assets/images/t/king-teti.jpg
+    caption: "Pyramid of Teti"
+      
 ---
+
+GGGGGGGGGGGGGGG
+{% include carousel.html images=page.carousel_images %}
+
 
 hello
 
@@ -18,7 +39,7 @@ hello
 
 {:.red-text } This is red text
 
-![](favicon-32x32.png){: .red-img}
+
 
 <section class="layout">
   <div> <img src="/assets/images/orion-s.jpg" alt="thumb" height="100"> </div>

@@ -6,10 +6,12 @@ collections:
   presentations:
     output: true
 
+include:
+  - js
 
 lsi: false
 safe: true
-source: [your repo's top level directory]
+source: .
 incremental: false
 highlighter: rouge
 gist:

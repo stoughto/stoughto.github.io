@@ -14,5 +14,7 @@ accessible, but also inspire a deeper appreciation for the rigor and
 beauty of scientific inquiry.
 
 <center>
-<em>Captivating stories of science and nature, delivered with style </em>
+<em>Travel far. Think deep. Stay curious.</em>
 </center>
+
+
