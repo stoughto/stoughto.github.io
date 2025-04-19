@@ -54,6 +54,8 @@ Here is how to make a link:
 
 [ABOUT](about.html)
 
- 
 
+Include carousel.js in test.md
+
+  <script src="{{ site.baseurl }}/assets/js/carousel.js"></script>
 
