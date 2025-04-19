@@ -20,11 +20,12 @@ carousel_images:
       
 ---
 
-GGGGGGGGGGGGGGG
+Here is the carousel
+
 {% include carousel.html images=page.carousel_images %}
 
 
-hello
+Done with carousel
 
 <a href="/presentations" class="image-text-link">
   <img src="/assets/images/orion-s.jpg" alt="Chris Stoughton">
@@ -46,19 +47,13 @@ hello
   <div class="grow1"> <h2>This is the title</h2> <p> and this is the description Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> </div>
 </section>
 
+
+Here is how to make a link:
+
 <a href=about.html> about </a>
 
 [ABOUT](about.html)
 
-[
-<section class="layout">
-  <div> xyz </div>
-  <div> hello hello hello </div>
- </section>
-](about.html)
-
- [this is the
- link to about](about.html)
  
 
 
