@@ -1,4 +1,3 @@
-<script>
 document.addEventListener("DOMContentLoaded", () => {
   const slides = document.querySelectorAll('.carousel-slide');
   let slideIndex = 0;
@@ -18,4 +17,3 @@ document.addEventListener("DOMContentLoaded", () => {
   // Show first slide after page load to override initial-active
   showSlide(slideIndex);
 });
-</script>
