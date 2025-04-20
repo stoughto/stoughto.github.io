@@ -6,6 +6,8 @@ navigation_weight: 3
 
 Dr. Christopher Stoughton, PhD
 
+chris.stoughton \<at\> gmail dot com
+
 Dr. Stoughton is a renowned astronomer with over 40 years of
 experience in both academic research and education.  A passionate
 advocate for the wonders of the cosmos, Dr. Stoughton spent his career
