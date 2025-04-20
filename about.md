@@ -6,7 +6,7 @@ navigation_weight: 3
 
 Dr. Christopher Stoughton, PhD
 
-Dr. Stoughton is a renowned astronomer with over 35 years of
+Dr. Stoughton is a renowned astronomer with over 40 years of
 experience in both academic research and education.  A passionate
 advocate for the wonders of the cosmos, Dr. Stoughton spent his career
 unraveling the Universe, from the smallest bits and pieces we know

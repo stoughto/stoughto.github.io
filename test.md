@@ -2,7 +2,7 @@
 layout: default
 title: "This is a Test"
 
-carousel_images:
+carousel_items:
   - url: /assets/images/t/malta-einstein.jpg
     caption: "Upper Barrakkas, La Valletta, Malta"
   - url: /assets/images/t/ecuador-middle-of-the-world.jpg
@@ -10,22 +10,33 @@ carousel_images:
   - url: /assets/images/t/apollo.jpg
     caption: "Apollo 11 Test Capsule   Meteor Crater, AZ"
   - url: /assets/images/t/alexandria-ruins-group.jpg
-    caption: "Roman Ruins in Alexandria"
+    caption: "Serapeum, Roman Ruins in Alexandria"
   - url: /assets/images/t/gibraltar.jpg
-    caption: "Gibraltar"
+    caption: "Jebel Musa in Morocco, from Europa Point, Gibraltar"
   - url: /assets/images/t/mosaic-in-alexandria.png
-    caption: "Marble Mosaic"
+    caption: "Kallinike Mosaic, Alexandria"
   - url: /assets/images/t/king-teti.jpg
     caption: "Pyramid of Teti"
-      
+
+
+carousels:
+  - images :
+    - image: /assets/images/t/malta-einstein.jpg
+    - image: /assets/images/t/ecuador-middle-of-the-world.jpg
+
+
 ---
 
 Here is the carousel
 
-{% include carousel.html images=page.carousel_images %}
-
+{% include carousel_items.html height="50" unit="%" duration="7" number="1" %}
 
 Done with carousel
+
+{% for item in page.carousel_items %}
+  {{ item.url }}
+  {{ item.caption }}
+{% endfor %}
 
 <a href="/presentations" class="image-text-link">
   <img src="/assets/images/orion-s.jpg" alt="Chris Stoughton">
@@ -34,7 +45,7 @@ Done with carousel
 
 
 
-{{ site.title }}
+Here is site.title:  {{ site.title }}
 
 <h1 class="red-text">Content</h1>
 
@@ -55,7 +66,4 @@ Here is how to make a link:
 [ABOUT](about.html)
 
 
-Include carousel.js in test.md
-
-  <script src="{{ site.baseurl }}/assets/js/carousel.js"></script>
 
