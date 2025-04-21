@@ -8,6 +8,10 @@ Dr. Christopher Stoughton, PhD
 
 chris.stoughton \<at\> gmail dot com
 
+
+<div class="image-wrap">
+  <img src="/assets/images/033_Stoughton.jpg">
+  <p>
 Dr. Stoughton is a renowned astronomer with over 40 years of
 experience in both academic research and education.  A passionate
 advocate for the wonders of the cosmos, Dr. Stoughton spent his career
@@ -17,10 +21,14 @@ Columbia University and has contributed to several influential
 research papers in the fields of Cosmology, Particle Physics, and
 Quantum Computing.
 
+<p>
 In addition to his academic work, Dr. Stoughton shares the wonders of
 the universe with the public.  His engaging presentations reach
 audiences of all ages and backgrounds, making complex scientific
-concepts accessible and exciting. Now, he combines his love of
+concepts accessible and exciting.
+
+<p>
+Now, he combines his love of
 cruising with astronomy and popular science to offer expert lectures
 aboard cruise ships.  Dr. Stoughton’s lectures cover a wide range of
 astronomical, scientific, and technical topics, from the latest
@@ -32,8 +40,11 @@ designed to spark curiosity. Astronomy and science spring from
 observing, so he often incorporates stunning visuals, star charts, and
 live demonstrations to help bring the cosmos to life.
 
+<p>
 He enjoys stargazing, photography, and travel, making him the perfect
 guide to both the heavens and the seas.
+
+
 
 
 

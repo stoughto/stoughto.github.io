@@ -143,3 +143,16 @@ nav li a:hover {
 
 
 
+.image-wrap img {
+  float: left; /* or right */
+  margin: 0 20px 20px 0;
+  max-width: 300px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.image-wrap::after {
+  content: "";
+  display: table;
+  clear: both;
+}
