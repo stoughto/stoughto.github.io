@@ -26,24 +26,28 @@ carousels:
 
 
 ---
+[armed forces lead](/assets/audio/Armed-Forces-Medley-2023_Lead.mp3)
+
+<audio controls style="width: 100%; max-width: 400px;">
+  <source src="/assets/audio/Armed-Forces-Medley-2023_Lead.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+<div style="display: flex; align-items: center; gap: 10px;">
+  <span>Armed Forces Lead:</span>
+  <audio controls style="width: 300px;">
+    <source src="/assets/audio/Armed-Forces-Medley-2023_Lead.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+</div>
+
+<a href=/assets/audio/Armed-Forces-Medley-2023_Lead.mp3> armed forces lead</a>
 
 Here is the carousel
 
 {% include carousel_items.html height="50" unit="%" duration="7" number="1" %}
 
 Done with carousel
-
-{% for item in page.carousel_items %}
-  {{ item.url }}
-  {{ item.caption }}
-{% endfor %}
-
-<a href="/presentations" class="image-text-link">
-  <img src="/assets/images/orion-s.jpg" alt="Chris Stoughton">
-  <span> **Engaging Presentations**  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, </span>
-</a>
-
-
 
 Here is site.title:  {{ site.title }}
 
