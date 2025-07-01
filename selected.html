@@ -1,0 +1,105 @@
+---
+---
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Selected Presentations</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 1in;
+    }
+
+    .presentation {
+      clear: both;
+      margin-bottom: 40px;
+    }
+
+    .thumbnail {
+      float: left;
+      margin: 0 20px 20px 0;
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+    }
+
+    .tagline {
+      font-style: italic;
+      font-size: 18px;
+      color: #555;
+    }
+
+    h1, h2 {
+      text-align: center;
+    }
+
+    .attribution {
+      text-align: center;
+      font-size: 14px;
+      color: #555;
+      margin-top: 5px;
+      font-style: italic;
+    }
+
+    button {
+      margin: 20px 0;
+    }
+
+    @media print {
+      button {
+        display: none;
+      }
+
+      .thumbnail, .presentation {
+        page-break-inside: avoid;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Selected Presentations</h1>
+  <h2 id="clientName">For Unknown Client</h2>
+  <div class="attribution" id="attribution"></div>
+
+  <div id="printContent"></div>
+
+  <button onclick="window.print()">Print or Save as PDF</button>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const clientName = localStorage.getItem("clientName") || "Unknown Client";
+      document.getElementById("clientName").textContent = `For ${clientName}`;
+
+      const year = new Date().getFullYear();
+      document.getElementById("attribution").innerHTML =
+        `&copy; ${year} Chris Stoughton -- Engaging Presentations`;
+
+      const selectedJSON = localStorage.getItem("selectedPresentations");
+      const selectedItems = selectedJSON ? JSON.parse(selectedJSON) : [];
+
+      const container = document.getElementById("printContent");
+
+      if (!selectedItems.length) {
+        container.innerHTML = "<p>No presentations selected.</p>";
+        return;
+      }
+
+      selectedItems.forEach(item => {
+        const html = `
+          <div class="presentation">
+            <img class="thumbnail" src="${item.thumbnail}" alt="Thumbnail for ${item.title}">
+            <h3>${item.title}</h3>
+            <p class="tagline">${item.tagline}</p>
+          </div>
+        `;
+        container.innerHTML += html;
+      });
+    });
+  </script>
+
+</body>
+</html>
